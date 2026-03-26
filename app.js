@@ -168,7 +168,7 @@ function novaMissao() {
         local = local + ' e ' + local2
     }
 
-    [_, aliado] = random(aliados);
+    [key, aliado] = random(aliados);
     if (key == 4) {
         [_, elemento] = random(aposentado)
         aliado = aliado + `(${elemento})`
